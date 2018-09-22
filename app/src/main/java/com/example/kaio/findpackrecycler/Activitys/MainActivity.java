@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         CircleMenu circleMenu = (CircleMenu) findViewById(R.id.circlemenu);
 
-        circleMenu.setMainMenu(Color.parseColor("#CDCDCD"), R.drawable.icon_menu, R.drawable.icon_menu)
+        circleMenu.setMainMenu(Color.parseColor("#ffffff"), R.drawable.icon_menu, R.drawable.icon_menu)
                 .addSubMenu(Color.parseColor("#ffffff"), R.drawable.icon_novo)
                 .addSubMenu(Color.parseColor("#ffffff"), R.drawable.icon_enviados)
                 .addSubMenu(Color.parseColor("#ffffff"), R.drawable.icon_pendentes)
